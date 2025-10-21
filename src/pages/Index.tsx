@@ -31,7 +31,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="w-full space-y-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <div className="w-full animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <Button 
                 onClick={handleTelegramLogin}
                 className="w-full h-14 bg-gradient-to-r from-[#0088CC] to-[#229ED9] hover:from-[#0077b3] hover:to-[#1a8cc2] text-white font-medium text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
@@ -39,21 +39,6 @@ const Index = () => {
                 <Icon name="Send" className="mr-2 h-5 w-5" />
                 Войти через Telegram
               </Button>
-
-              <div className="relative">
-                <div className="absolute inset-0 flex items-center">
-                  <span className="w-full border-t border-muted" />
-                </div>
-                <div className="relative flex justify-center text-xs uppercase">
-                  <span className="bg-white px-2 text-muted-foreground">или</span>
-                </div>
-              </div>
-
-              <Button 
-                variant="outline"
-                onClick={handleTelegramLogin}
-                className="w-full h-14 border-2 border-[#0088CC]/20 hover:border-[#0088CC] hover:bg-[#0088CC]/5 font-medium text-lg transition-all duration-300"
-              >Гостевой вход</Button>
             </div>
 
             <div className="flex items-center gap-2 text-xs text-muted-foreground animate-fade-in" style={{ animationDelay: '0.4s' }}>
