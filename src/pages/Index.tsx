@@ -53,10 +53,7 @@ const Index = () => {
                 variant="outline"
                 onClick={handleTelegramLogin}
                 className="w-full h-14 border-2 border-[#0088CC]/20 hover:border-[#0088CC] hover:bg-[#0088CC]/5 font-medium text-lg transition-all duration-300"
-              >
-                <Icon name="UserCircle" className="mr-2 h-5 w-5 text-[#0088CC]" />
-                Гостевой вход
-              </Button>
+              >Гостевой вход</Button>
             </div>
 
             <div className="flex items-center gap-2 text-xs text-muted-foreground animate-fade-in" style={{ animationDelay: '0.4s' }}>
